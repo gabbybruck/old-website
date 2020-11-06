@@ -1,0 +1,48 @@
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	margin:0px;
+	padding:30px;
+	font-size:20px;
+	color:#D32D29;
+}
+
+
+h2{
+	font-family: 'Libre Baskerville', serif;
+	font-size:150px;
+	color:black;
+	padding:20px;
+}
+
+h3{
+	font-family: 'Libre Baskerville', serif;
+	font-size:50px;
+	color:black;
+	padding:22px;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	margin:0px;
+	padding:30px;
+	font-size:30px;
+	color:#D32D29;
+}
+h5{
+	font-family: 'Libre Baskerville', serif;
+	font-size:15px;
+	color:black;
+	padding:21px;
+}
+h6{
+	font-family: 'Montserrat', sans-serif;
+	margin:0px;
+	padding: 80px;
+	font-size:30px;
+	color:#D32D29;
+}
+
+
+
+

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Gabby Bruck</title>
+		<!-- 	link your fonts from google fonts. this must be before you link your own style sheets -->
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata|Libre+Baskerville|Montserrat" rel="stylesheet">
+
+		<!-- add your css files -->
+		<link href="css/fonts.css" rel="stylesheet"/>
+		<link href="css/layouts.css" rel="stylesheet"/>
+	</head>
+
+	<body style="background-color:white;">
+<div id="section1">
+	<div class="nav-bar">
+		<img src="images/GABBYBRUCK.png" style="width:10%; height:10%; padding:10px;">
+		<a href="index.html" style="margin-left:40%;  text-decoration:none;"><h1 style="text-decoration:line-through;" >Home</h1></a>
+		<a href="about.html" style="text-decoration:none;"><h1 id="hover">About</h1></a>
+		<a href="contact.html" style="text-decoration:none;"><h1 id="hover">Contact</h1></a>
+	</div>
+
+
+<div class="maindisplay">
+	<a href="#section2" style="text-decoration:none;"><div class="stack">
+		<div class="enlarge">
+		<h2 class="numbers">01</h2>
+		<h1>Illustrations</h1>
+		</div>
+		<div class="circle"></div>
+	</div></a>
+
+		<a href="#section3" style="text-decoration:none;">
+		<div class="stack">
+		<div class="enlarge">
+		<h2 class="numbers">02</h2>
+		<h1>UX Design</h1>
+		</div>
+		<div class="circle"></div>
+	</div></a>
+
+		<a href="#section4" style="text-decoration:none;"><div class="stack">
+		<div class="enlarge">
+		<h2 class="numbers">03</h2>
+		<h1>Graphic Design</h1>
+		</div>
+		<div class="circle"></div>
+	</div></a>
+</div>
+</div>
+
+
+
+<div id="section2">
+	<div>
+	<h3 class="illtitle">Illustrations.</h3>
+	
+</div>
+<div class="illtext">
+	<a href="paintings.html" style="text-decoration:none;">
+	<h4 id="pop-up-btn-nav">Paintings</h4>
+	</a>
+	<a href="digital.html" style="text-decoration:none;">
+		<h4 id="pop-up-btn-nav2">Digital</h4>
+	</a>
+	<a href="pencil.html" style="text-decoration:none;">
+	<h4 id="pop-up-btn-nav3">Traditional</h4>
+	</a>
+
+	</div>
+</div>
+<div id="small">
+		<div>
+		<a href="#section3" style="text-decoration:none;">
+		<!-- <h3 class="numbers">02</h3>
+		<h4>Next:UX Designs</h4> -->
+		<img src="images/arrow.png" style="width:10%; height:10%;">
+		</div></a>
+	</div>
+	<div id="smallup">
+		<div>
+		<a href="#section1" style="text-decoration:none;">
+		<!-- <h3 class="numbers">02</h3>
+		<h4>Next:UX Designs</h4> -->
+		<img src="images/arrowup.png" style="width:10%; height:10%;">
+		</div></a>
+	</div>
+	
+	
+
+
+
+	<div id="section3">
+	<div>
+	<h3 class="uxtitle">UX Design.</h3>
+
+	</div>
+
+	<div class="uxtext">
+	
+	 <a href="curated.html" style="text-decoration:none;">
+	<h4 id="pop-up-btn-nav7">Curated</h4>
+    </a>
+	<a href="easely.html" style="text-decoration:none;">
+	<h4 id="pop-up-btn-nav6">Easely</h4>
+    </a>
+	</div>
+</div>
+
+<div id="smallux">
+		<div>
+		<a href="#section4" style="text-decoration:none;">
+		<img src="images/arrow.png" style="width:10%; height:10%;">
+		</div></a>
+	</div>
+	<div id="smallux2">
+		<div>
+		<a href="#section1" style="text-decoration:none;">
+		<!-- <h3 class="numbers">02</h3>
+		<h4>Next:UX Designs</h4> -->
+		<img src="images/arrowup.png" style="width:10%; height:10%;">
+		</div></a>
+	</div>
+</div>
+
+
+
+<div id="section4">
+	<div>
+	<h3 class="gdtitle">Graphic Design.</h3>
+	
+	</div>
+
+	<div class="gdtext">
+	<a href="tastemakers.html" style="text-decoration:none;">	
+	<h6 id="pop-up-btn-nav9">Tastemakers</h6>
+	</a>
+	<a href="ameresco.html" style="text-decoration:none;">	
+	<h6 id="pop-up-btn-nav10">Ameresco</h6>
+	</a>
+	<a href="infographic.html" style="text-decoration:none;">	
+	<h6 id="pop-up-btn-nav11">Info. Design</h6>
+	</a>
+	<!-- <h4 id="pop-up-btn-nav12">Book Design</h4> -->
+	</div>
+</div>
+</div>
+
+	</body>
+
+		
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+		
+	$("#pop-up-btn-nav").mouseenter(function(){
+
+		$("#pop-up-1").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav").mouseleave(function(){
+		$("#pop-up-1").addClass("hidden-class")
+	})
+
+
+	</script>
+	<script>
+		
+	$("#pop-up-btn-nav2").mouseenter(function(){
+
+		$("#pop-up-2").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav2").mouseleave(function(){
+		$("#pop-up-2").addClass("hidden-class")
+	})
+
+
+	</script>
+	<script>
+		
+	$("#pop-up-btn-nav3").mouseenter(function(){
+
+		$("#pop-up-3").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav3").mouseleave(function(){
+		$("#pop-up-3").addClass("hidden-class")
+	})
+
+
+	</script>
+	<script>
+		
+	$("#pop-up-btn-nav4").mouseenter(function(){
+
+		$("#pop-up-4").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav4").mouseleave(function(){
+		$("#pop-up-4").addClass("hidden-class")
+	})
+
+
+	</script>
+
+	<script>
+		
+	$("#pop-up-btn-nav5").mouseenter(function(){
+
+		$("#pop-up-5").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav5").mouseleave(function(){
+		$("#pop-up-5").addClass("hidden-class")
+	})
+
+
+
+	</script>
+	<script>
+		
+	$("#pop-up-btn-nav6").mouseenter(function(){
+
+		$("#pop-up-6").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav6").mouseleave(function(){
+		$("#pop-up-6").addClass("hidden-class")
+	})
+</script>
+	<script>
+		
+	$("#pop-up-btn-nav7").mouseenter(function(){
+
+		$("#pop-up-7").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav7").mouseleave(function(){
+		$("#pop-up-7").addClass("hidden-class")
+	})
+
+	</script>
+	<script>
+		
+	$("#pop-up-btn-nav8").mouseenter(function(){
+
+		$("#pop-up-8").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav8").mouseleave(function(){
+		$("#pop-up-8").addClass("hidden-class")
+	})
+
+
+	</script>
+	<script>
+		
+	$("#pop-up-btn-nav9").mouseenter(function(){
+
+		$("#pop-up-9").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav9").mouseleave(function(){
+		$("#pop-up-9").addClass("hidden-class")
+	})
+
+
+	</script>
+
+	<script>
+		
+	$("#pop-up-btn-nav10").mouseenter(function(){
+
+		$("#pop-up-10").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav10").mouseleave(function(){
+		$("#pop-up-10").addClass("hidden-class")
+	})
+
+
+	</script>
+
+	<script>
+		
+	$("#pop-up-btn-nav11").mouseenter(function(){
+
+		$("#pop-up-11").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav11").mouseleave(function(){
+		$("#pop-up-11").addClass("hidden-class")
+	})
+
+
+	</script>
+
+	<script>
+		
+	$("#pop-up-btn-nav12").mouseenter(function(){
+
+		$("#pop-up-12").removeClass("hidden-class")
+		console.log("hi")
+	})
+
+	$("#pop-up-btn-nav12").mouseleave(function(){
+		$("#pop-up-12").addClass("hidden-class")
+	})
+
+
+	</script>
+
+
+
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
